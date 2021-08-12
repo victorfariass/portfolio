@@ -1,0 +1,81 @@
+.hard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hard-container h2 {
+  font-size: 30px;
+  color: #193140;
+}
+
+.hard-container ul{
+  width: 70vw;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.hard-container ul li {
+  background-color: #1C5359;
+  width: 10vw;
+  padding: 25px 10px;
+  margin: 10px;
+  font-size: 20px;
+  text-align: center;
+  color: #B8D9C6;
+  border: solid 2px #6AA695;
+  border-radius: 10px;
+  box-shadow: 3px 3px 8px black;
+  font-weight: bold;
+}
+
+.soft-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.soft-container h2 {
+  width: 100vw;
+  text-align: center;
+  font-size: 30px;
+  color: #193140;
+}
+
+.soft-container div {
+  width: 70vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.soft-container ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+  align-items: center;
+  margin: 10px;
+  width: 18vw;
+  text-align: center;
+  background-color: #1C5359;
+  color: #B8D9C6;
+  border: solid 2px #6AA695;
+  border-radius: 10px;
+  box-shadow: 3px 3px 8px black;
+  padding: 10px;
+}
+
+.soft-container ul h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.soft-container ul li {
+  font-size: 20px;
+}

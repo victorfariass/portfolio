@@ -1,0 +1,27 @@
+.nav-container {
+  border: solid 5px #6AA695;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px;
+  display: flex;
+  justify-content: center;
+  background-color: #193140;
+  margin: 20px;
+}
+
+.nav-item {
+  list-style: none;
+  margin: 0;
+  padding: 20px;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.nav-item a {
+  font-size: 29px;
+  text-decoration: none;
+  color: #B8D9C6;
+  font-weight: bold;
+}

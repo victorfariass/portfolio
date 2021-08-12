@@ -1,0 +1,71 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.profile-image {
+  border: 5px solid #193140;
+  border-radius: 100%;
+  box-shadow: 5px 5px 10px;
+  width: 200px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 30px;
+  color: #193140;
+}
+
+h1.name {
+  font-size: 40px;
+  margin: 4px;
+}
+
+.info p {
+  font-size: 25px;
+  margin: 4px;
+}
+
+.logos-container {
+  margin: 20px;
+}
+
+.logo {
+  margin: 20px;
+  width: 40px;
+}
+
+.objectives {
+  display: flex;
+  width: 65vw;
+  justify-content: space-around;
+}
+
+.obj-item {
+  width: 450px;
+  background-color: #1C5359;
+  border: solid 5px #6AA695;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px black;
+  color: #B8D9C6;
+  padding: 20px;
+  text-align: justify;
+}
+
+.obj-item h1 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.obj-item p {
+  font-size: 20px;
+}
