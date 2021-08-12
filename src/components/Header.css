@@ -25,3 +25,13 @@
   color: #B8D9C6;
   font-weight: bold;
 }
+
+@media ( max-width: 900px ) {
+  .nav-item {
+    padding: 8px;
+  }
+
+  .nav-item a {
+    font-size: 15px;
+  }
+}

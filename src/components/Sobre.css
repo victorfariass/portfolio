@@ -69,3 +69,42 @@ h1.name {
 .obj-item p {
   font-size: 18px;
 }
+
+@media ( max-width: 900px ) {
+  .profile-image {
+    width: 80px;
+  }
+
+  h1.name {
+    font-size: 15px;
+    margin: 4px;
+  }
+  
+  .info p {
+    font-size: 11px;
+    margin: 4px;
+  }
+
+  .objectives {
+    width: 95vw;
+  }
+
+  .obj-item h1 {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .obj-item p {
+    font-size: 9px;
+  }
+
+  .obj-item {
+    width: 40vw;
+    box-shadow: 2px 2px 5px black;
+    padding: 10px;
+  }
+
+  .logo {
+    width: 20px;
+  }
+}
