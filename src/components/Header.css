@@ -5,13 +5,13 @@
   display: flex;
   justify-content: center;
   background-color: #193140;
-  margin: 20px;
+  margin: 10px;
 }
 
 .nav-item {
   list-style: none;
   margin: 0;
-  padding: 20px;
+  padding: 15px;
 }
 
 .nav-item:hover {
@@ -20,7 +20,7 @@
 }
 
 .nav-item a {
-  font-size: 29px;
+  font-size: 25px;
   text-decoration: none;
   color: #B8D9C6;
   font-weight: bold;

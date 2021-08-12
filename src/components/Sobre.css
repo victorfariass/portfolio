@@ -7,14 +7,14 @@
 .about {
   display: flex;
   align-items: center;
-  margin: 20px;
+  margin: 15px;
 }
 
 .profile-image {
   border: 5px solid #193140;
   border-radius: 100%;
   box-shadow: 5px 5px 10px;
-  width: 200px;
+  width: 150px;
 }
 
 .info {
@@ -26,12 +26,12 @@
 }
 
 h1.name {
-  font-size: 40px;
+  font-size: 30px;
   margin: 4px;
 }
 
 .info p {
-  font-size: 25px;
+  font-size: 20px;
   margin: 4px;
 }
 
@@ -46,12 +46,12 @@ h1.name {
 
 .objectives {
   display: flex;
-  width: 65vw;
+  width: 70vw;
   justify-content: space-around;
 }
 
 .obj-item {
-  width: 450px;
+  width: 30vw;
   background-color: #1C5359;
   border: solid 5px #6AA695;
   border-radius: 10px;
@@ -62,10 +62,10 @@ h1.name {
 }
 
 .obj-item h1 {
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: 10px;
 }
 
 .obj-item p {
-  font-size: 20px;
+  font-size: 18px;
 }
