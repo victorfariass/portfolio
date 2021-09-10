@@ -227,7 +227,7 @@ export const softSkills = [
     skills: ['Inovação', 'Criação', 'Curiosidade'],
   },
   {
-    trilha: 'Lideramça',
+    trilha: 'Liderança',
     skills: ['Organização'],
   }
 ]
