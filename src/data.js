@@ -14,6 +14,7 @@ export const fundamentos = [
   {
     name: 'Pixels Art',
     link: 'https://github.com/tryber/sd-08-project-pixels-art/pull/40',
+    deploy: 'https://victorfariass.github.io/pixels-art/',
     techs: ['HTML', 'CSS', 'JavaScript'],
     description: 'Foi implementado um editor de arte com pixels. Ou seja, dada uma paleta de cores e um quadro composto por pixels, permite que quem usa consiga pintar o que quiser no quadro.',
   },

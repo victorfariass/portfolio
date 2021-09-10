@@ -21,6 +21,11 @@ const Fundamentos = () => {
                 ))}
               </ul>
               <a href={projeto.link} target='_blank' rel="noreferrer">Pull Request</a>
+              {projeto.deploy ? 
+                <a href={projeto.deploy} target='_blank' rel="noreferrer">Deploy</a>
+                : <div></div>
+              }
+              
             </div>
           </div>
         )))}
