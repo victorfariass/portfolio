@@ -21,6 +21,7 @@ export const fundamentos = [
   {
     name: 'To do List',
     link: 'https://github.com/tryber/sd-08-project-todo-list/pull/37',
+    deploy: 'https://victorfariass.github.io/todo-list/',
     techs: ['HTML', 'CSS', 'JavaScript'],
     description: 'Nesse projeto foi necessário manipular o DOM para adicionar (ou remover) itens à lista de tarefas, utilizar eventos para identificar quando o usuário está interagindo com a página e criar funções para tratar esse eventos de forma apropriada.',
   },
