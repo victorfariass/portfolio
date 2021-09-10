@@ -4,6 +4,12 @@
 }
 
 body {
-  background-color: #B8D9C6;
+  background-color: #161616;
   height: 100vh;
+  padding-top: 50px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
 }

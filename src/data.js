@@ -187,7 +187,7 @@ export const backend = [
   },
 ]
 
-export const hardSkils = [
+export const hardSkills = [
   'Git',
   'GitHub',
   'HTML',
@@ -205,7 +205,7 @@ export const hardSkils = [
   'Socket.io',
 ]
 
-export const softSkils = [
+export const softSkills = [
   {
     trilha: 'Inteligência Emocional',
     skills: ['Autoconhecimento', 'Empatia', 'Resiliência', 'Autogestão'],
@@ -225,5 +225,9 @@ export const softSkils = [
   {
     trilha: 'Criatividade',
     skills: ['Inovação', 'Criação', 'Curiosidade'],
+  },
+  {
+    trilha: 'Lideramça',
+    skills: ['Organização'],
   }
 ]
