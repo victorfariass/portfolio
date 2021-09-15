@@ -34,6 +34,13 @@ class Social extends React.Component {
           target="_blank"
           style={{ height: "40px", width: "40px", margin: "5px" }}
         />
+        <SocialIcon
+          url="https://api.whatsapp.com/send?phone=5511943889879"
+          bgColor="#575757"
+          fgColor="#FFFFFF"
+          target="_blank"
+          style={{ height: "40px", width: "40px", margin: "5px" }}
+        />
       </div>
     );
   }

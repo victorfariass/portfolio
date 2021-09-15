@@ -11,7 +11,7 @@ export const fundamentos = [
     name: 'Playground Functions',
     link: 'https://github.com/tryber/sd-08-project-playground-function/pull/9',
     techs: ['JavaScript'],
-    description: 'Foi implementado uma série de funções em JavaScript, para entender a importância de saber quebrar grandes problemas em problemas menores e utilizar a lógica de programação na resolução.',
+    description: 'Foram implementadas uma série de funções em JavaScript, para entender a importância de saber quebrar grandes problemas em problemas menores e utilizar a lógica de programação na resolução.',
   },
   {
     id: 3,
@@ -27,12 +27,13 @@ export const fundamentos = [
     link: 'https://github.com/tryber/sd-08-project-todo-list/pull/37',
     deploy: 'https://victorfariass.github.io/todo-list/',
     techs: ['HTML', 'CSS', 'JavaScript'],
-    description: 'Nesse projeto foi necessário manipular o DOM para adicionar (ou remover) itens à lista de tarefas, utilizar eventos para identificar quando o usuário está interagindo com a página e criar funções para tratar esse eventos de forma apropriada.',
+    description: 'Nesse projeto foi necessário manipular o DOM para adicionar (ou remover) itens à lista de tarefas, utilizar eventos para identificar quando o usuário está interagindo com a página e criar funções para tratar esses eventos de forma apropriada.',
   },
   {
     id: 5,
     name: 'Facebook Signup',
     link: 'https://github.com/tryber/sd-08-project-facebook-signup/pull/30',
+    deploy: 'https://victorfariass.github.io/login-signup/',
     techs: ['HTML', 'CSS', 'JavaScript'],
     description: 'Foi implementado um formulário em HTML, utilizando também bibliotecas que deixou o trabalho mais rápido, fácil e bonito. Além disso, foi estilizado usando muito CSS Flexbox, que é uma maneira fácil e limpa de organizar os elementos da tela.'
   },
@@ -48,7 +49,7 @@ export const fundamentos = [
     name: 'Zoo Functions',
     link: 'https://github.com/tryber/sd-08-project-zoo-function/pull/109',
     techs: ['JavaScript'],
-    description: 'Nesse projeto foi implementano um conjunto de funções para recuperar informações de um zoológico, utilizando as funcionalidades do JavaScript ES6.',
+    description: 'Nesse projeto foi implementado um conjunto de funções para recuperar informações de um zoológico, utilizando as funcionalidades do JavaScript ES6.',
   },
   {
     id: 8,
@@ -145,7 +146,7 @@ export const backend = [
     name: 'Vocabulary Booster',
     link: 'https://github.com/tryber/sd-08-mysql-vocabulary-booster/pull/4',
     techs: ['MySQL'],
-    description: 'Neste projeto foi praticado todos os conceitos de SQL e a criação de queries mais elaboradas, utilizando, muitas vezes, diferentes comandos em uma mesma query.',
+    description: 'Neste projeto foram praticados todos os conceitos de SQL e a criação de queries mais elaboradas, utilizando, muitas vezes, diferentes comandos em uma mesma query.',
   },
   {
     id: 3,
@@ -173,7 +174,7 @@ export const backend = [
     name: 'Aggregations',
     link: 'https://github.com/tryber/sd-08-mongodb-aggregations/pull/41',
     techs: ['MongoDB'],
-    description: 'Neste projeto, foi utilizados vários datasets, de forma que possa praticar em vários cenários os diversos operadores e estágios do aggregation pipeline.',
+    description: 'Neste projeto, foram utilizados vários datasets, de forma que possa praticar em vários cenários os diversos operadores e estágios do aggregation pipeline.',
   },
   {
     id: 7,

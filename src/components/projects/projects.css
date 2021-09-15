@@ -152,6 +152,10 @@
     padding: 5px;
   }
 
+  .card.item {
+    width: 90vw;
+  }
+
   .card h2 {
     font-size: 13px;
   }
@@ -171,5 +175,13 @@
   .techs a {
     padding: 5px 8px;
     font-size: 11px;
+  }
+
+  .right-arrow {
+    font-size: 1.5rem;
+  }
+
+  .left-arrow {
+    font-size: 1.5rem;
   }
 }
