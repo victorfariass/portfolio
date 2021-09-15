@@ -32,7 +32,7 @@ const Fundamentos = ({ slides }) => {
               key={index}
             >
               {index === current && (
-                <div className="card item">
+                <div key={index} className="card item">
                 <div>
                   <h2>{`${projeto.id} - ${projeto.name}`}</h2>
                   <p>{projeto.description}</p>
@@ -40,8 +40,8 @@ const Fundamentos = ({ slides }) => {
                 <div className="techs">
                   <ul>
                     <h3>Tecnologias</h3>
-                    {projeto.techs.map((tech) => (
-                      <li>{tech}</li>
+                    {projeto.techs.map((tech, i) => (
+                      <li key={i}>{tech}</li>
                     ))}
                   </ul>
                   <a href={projeto.link} target='_blank' rel="noreferrer">Pull Request</a>

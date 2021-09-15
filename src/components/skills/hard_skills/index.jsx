@@ -7,8 +7,8 @@ export default function HardSkills() {
       <hr />
       <h2>Hard Skills</h2>
       <ul>
-        {hardSkills.map((hardSkill) => (
-          <li>{hardSkill}</li>
+        {hardSkills.map((hardSkill, index) => (
+          <li key={index}>{hardSkill}</li>
         ))}
       </ul>
     </div>

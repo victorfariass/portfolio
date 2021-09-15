@@ -40,8 +40,8 @@ const Frontend = ({ slides }) => {
                 <div className="techs">
                   <ul>
                     <h3>Tecnologias</h3>
-                    {projeto.techs.map((tech) => (
-                      <li>{tech}</li>
+                    {projeto.techs.map((tech, i) => (
+                      <li key={i}>{tech}</li>
                     ))}
                   </ul>
                   <a href={projeto.link} target='_blank' rel="noreferrer">Pull Request</a>

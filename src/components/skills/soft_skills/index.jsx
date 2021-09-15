@@ -6,11 +6,11 @@ export default function SoftSkills() {
     <div className="soft-container">
       <h2>Soft Skills</h2>
       <div>
-        {softSkills.map((data) => (
-          <ul>
+        {softSkills.map((data, index) => (
+          <ul key={index}>
             <h3>{data.trilha}</h3>
-            {data.skills.map((skill) => (
-              <li>{skill}</li>
+            {data.skills.map((skill, i) => (
+              <li key={i}>{skill}</li>
             ))}
           </ul>
         ))}

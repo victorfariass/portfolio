@@ -55,6 +55,7 @@ export const fundamentos = [
     id: 8,
     name: 'Shopping Cart',
     link: 'https://github.com/tryber/sd-08-project-shopping-cart/pull/60',
+    deploy: 'https://victorfariass.github.io/shopping-cart/',
     techs: ['HTML', 'CSS', 'JavaScript'],
     description: 'Este projeto coloca em prática todo o conteúdo sobre Web Storage e assincronicidade em JavaScript.',
   },
