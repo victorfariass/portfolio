@@ -97,7 +97,7 @@ export const frontend = [
     id: 4,
     name: 'Frontend Online Store',
     link: 'https://github.com/tryber/sd-08-project-frontend-online-store/pull/45',
-    deploy: 'https://victorfariass.github.io/project-frontend-online-store/';
+    deploy: 'https://victorfariass.github.io/project-frontend-online-store/',
     techs: ['JavaScript', 'React', 'CSS'],
     description: 'Primeiro projeto feito em grupo, utilizando todos os conceitos aprendidos em React e as Metodologias Ágeis.',
   },
