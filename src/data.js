@@ -89,6 +89,7 @@ export const frontend = [
     id: 3,
     name: 'Movie Cards Library CRUD',
     link: 'https://github.com/tryber/sd-08-project-movie-cards-library-crud/pull/34',
+    deploy: 'https://victorfariass.github.io/movie-cards-library-crud',
     techs: ['JavaScript', 'React', 'CSS'],
     description: 'Esse projeto é igual aos anteriores, porém utiliza a biblioteca React Router para organizar a aplicação em rotas e fornecer formas de navegar entre elas.',
   },
@@ -96,6 +97,7 @@ export const frontend = [
     id: 4,
     name: 'Frontend Online Store',
     link: 'https://github.com/tryber/sd-08-project-frontend-online-store/pull/45',
+    deploy: 'https://victorfariass.github.io/project-frontend-online-store/';
     techs: ['JavaScript', 'React', 'CSS'],
     description: 'Primeiro projeto feito em grupo, utilizando todos os conceitos aprendidos em React e as Metodologias Ágeis.',
   },
@@ -103,6 +105,7 @@ export const frontend = [
     id: 5,
     name: 'React Testing Library',
     link: 'https://github.com/tryber/sd-08-project-react-testing-library/pull/32',
+    deploy: 'https://victorfariass.github.io/pokedex',
     techs: ['JavaScript', 'React'],
     description: 'Neste projeto foi escrito testes para uma aplicação em React.',
   },
