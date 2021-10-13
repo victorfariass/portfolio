@@ -13,8 +13,14 @@ hr {
   width: 600px;
 }
 
-SocialIcon {
-  width: 50px;
+.social-logo img {
+  width: 30px;
+  margin: 15px 10px;
+  filter: invert(99%) sepia(10%) saturate(2%) hue-rotate(309deg) brightness(117%) contrast(100%);
+}
+
+.social-logo img:hover {
+  transform: scale(1.3);
 }
 
 @media ( max-width: 900px ) {

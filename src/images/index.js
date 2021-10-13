@@ -13,6 +13,10 @@ import nodedotjs from './nodedotjs.svg';
 import mysql from './mysql.svg';
 import mongodb from './mongodb.svg';
 import heroku from './heroku.svg';
+import facebook from './facebook.svg';
+import instagram from './instagram.svg';
+import linkedin from './linkedin.svg';
+import whatsapp from './whatsapp.svg';
 
 const images = {
   profile,
@@ -29,7 +33,11 @@ const images = {
   nodedotjs,
   mysql,
   mongodb,
-  heroku
+  heroku,
+  facebook,
+  instagram,
+  linkedin,
+  whatsapp,
 }
 
 export default images
