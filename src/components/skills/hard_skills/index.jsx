@@ -8,7 +8,9 @@ export default function HardSkills() {
       <h2>Hard Skills</h2>
       <ul>
         {hardSkills.map((hardSkill, index) => (
-          <li key={index}>{hardSkill}</li>
+          <li key={index}>
+            <img className='logo' src={hardSkill} alt='logo' />
+          </li>
         ))}
       </ul>
     </div>

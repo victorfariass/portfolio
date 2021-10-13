@@ -1,3 +1,5 @@
+import images from './images';
+
 export const fundamentos = [
   {
     id: 1,
@@ -231,21 +233,20 @@ export const backend = [
 ]
 
 export const hardSkills = [
-  'Git',
-  'GitHub',
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'Jest',
-  'ReactJS',
-  'Redux',
-  'Context API',
-  'MySQL',
-  'MongoDB',
-  'NodeJs',
-  'Heroku',
-  'Sequelize',
-  'Socket.io',
+  images.git,
+  images.github,
+  images.html5,
+  images.css3,
+  images.sass,
+  images.javascript,
+  images.typescript,
+  images.react,
+  images.redux,
+  images.styledcomponents,
+  images.nodedotjs,
+  images.mysql,
+  images.mongodb,
+  images.heroku
 ]
 
 export const softSkills = [
