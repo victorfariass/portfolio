@@ -11,10 +11,9 @@
 }
 
 .hard-container ul{
-  width: 53vw;
+  width: 55vw;
   display: flex;
-  list-style: none;
-  justify-content: center;
+  list-style: none; 
   flex-wrap: wrap;
   margin: 20px;
 }
