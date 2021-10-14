@@ -8,8 +8,7 @@ import Frontend from '../components/projects/front_projects';
 import './About.css';
 import './Skills.css';
 import './Projects.css';
-import HardSkills from '../components/skills/hard_skills';
-import SoftSkills from '../components/skills/soft_skills';
+import HardSkills from '../components/hard_skills';
 
 class Sobre extends React.Component {
   render() { 
@@ -22,7 +21,6 @@ class Sobre extends React.Component {
         </section>
         <section>
           <HardSkills />
-          <SoftSkills />
         </section>
         <section className="container">
           <hr />

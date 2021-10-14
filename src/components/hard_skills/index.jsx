@@ -1,11 +1,11 @@
 import React from 'react';
-import { hardSkills } from '../../../data';
+import { hardSkills } from '../../data';
 
 export default function HardSkills() {
   return (
     <div className="hard-container">
       <hr />
-      <h2>Hard Skills</h2>
+      <h2>Conhecimentos</h2>
       <ul>
         {hardSkills.map((hardSkill, index) => (
           <li key={index}>
