@@ -105,15 +105,21 @@ h1.name {
   
   .obj-item p {
     font-size: 9px;
+    width: 70vw;
   }
 
   .obj-item {
-    width: 40vw;
+    width: 100vw;
     padding: 10px;
     flex-direction: column;
+    justify-content: space-between;
   }
 
   .logo {
     width: 20px;
+  }
+
+  .avatar {
+    height: 130px;
   }
 }
