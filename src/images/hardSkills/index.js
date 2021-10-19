@@ -1,6 +1,5 @@
-import profile from './profile.png';
 import git from './git.svg';
-import github from './github.svg';
+import github from '../socialMedia/github.svg';
 import html5 from './html5.svg';
 import css3 from './css3.svg';
 import javascript from './javascript.svg';
@@ -13,20 +12,15 @@ import nodedotjs from './nodedotjs.svg';
 import mysql from './mysql.svg';
 import mongodb from './mongodb.svg';
 import heroku from './heroku.svg';
-import facebook from './facebook.svg';
-import instagram from './instagram.svg';
-import linkedin from './linkedin.svg';
-import whatsapp from './whatsapp.svg';
 
-const images = {
-  profile,
+const skillsImages = {
   git,
   github,
   html5,
-  javascript,
-  typescript,
   css3,
   sass,
+  javascript,
+  typescript,
   react,
   redux,
   styledcomponents,
@@ -34,10 +28,6 @@ const images = {
   mysql,
   mongodb,
   heroku,
-  facebook,
-  instagram,
-  linkedin,
-  whatsapp,
-}
+};
 
-export default images
+export default skillsImages;
