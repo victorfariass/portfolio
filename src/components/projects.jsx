@@ -17,18 +17,22 @@ export default function Projects() {
               <div className='flex card'>
                 <h1>{projeto.name}</h1>
                 <div className='flex techs-container'>
-                  <h3>Tecnologias</h3>
-                  <ul className='flex techs'>
-                  {projeto.techs.map((tech, index) => (
-                      <li>
-                        <img className='logo' src={tech} alt='logo' />
-                      </li>
-                  ))}
-                  </ul>
-                  {projeto.deploy && (
-                    <a href={projeto.deploy}>VER PROJETO</a>
-                  )}
-                  <a href={projeto.link}>VER REPOSITÓRIO</a>
+                  <div className='flex tecnologias'>
+                    <h3>Tecnologias</h3>
+                    <ul className='flex techs'>
+                    {projeto.techs.map((tech, index) => (
+                        <li>
+                          <img className='logo' src={tech} alt='logo' />
+                        </li>
+                    ))}
+                    </ul>
+                  </div>
+                  <div className='flex buttons'>
+                    {projeto.deploy && (
+                      <a href={projeto.deploy} target='_blank' rel='noreferrer'>VER PROJETO</a>
+                    )}
+                    <a href={projeto.link} target='_blank' rel='noreferrer'>VER REPOSITÓRIO</a>
+                  </div>
                 </div>
               </div>
             </div>

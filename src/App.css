@@ -151,6 +151,7 @@ hr {
   height: 100%;
   opacity: 0;
   background-color: rgba(0, 0, 0, 0.644);
+  border-radius: 0;
 }
 
 .card:hover {
@@ -170,6 +171,11 @@ hr {
 
 .techs-container h3 {
   font-size: 22px;
+}
+
+.tecnologias {
+  flex-direction: column;
+  align-items: center;
 }
 
 .techs {
@@ -195,6 +201,11 @@ hr {
   filter: invert(99%) sepia(10%) saturate(2%) hue-rotate(309deg) brightness(117%) contrast(100%);
   width: 30px;
   margin: 5px;
+}
+
+.buttons {
+  flex-direction: column;
+  align-items: center;
 }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {

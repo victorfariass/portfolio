@@ -4,7 +4,7 @@ import { skillsLogo } from '../data';
 export default function HardSkills() {
   return (
     <div className='flex skills-container'>
-      <h2>Conhecimentos</h2>
+      <h4>Conhecimentos</h4>
       <ul className='flex'>
         {skillsLogo.map((hardSkill, index) => (
           <li key={index}>

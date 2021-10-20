@@ -1,0 +1,107 @@
+@media screen and (max-width: 1007px) {
+  
+}
+
+@media screen and (max-width: 640px) {
+  hr {
+    width: 300px;
+  }
+
+  .profile-container {
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+  }
+
+  .profile-container .img-profile {
+    height: 130px;
+    width: 130px;
+    margin-bottom: 30px;
+  }
+
+  .info-container h1 {
+    font-size: 26px;
+  }
+
+  .info-container p {
+    font-size: 16px;
+  }
+
+  .about-container {
+    width: 100vw;
+  }
+
+  .item {
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  .item img{
+    height: 100px;
+    margin-bottom: 30px;
+  }
+  
+  .item p {
+    font-size: 16px;
+    width: 80vw;
+  }
+
+  .skills-container ul{
+    width: 100vw;
+  }
+
+  .skills-container ul li img {
+    width: 60px;
+    margin: 0;
+  }
+
+  .projects-main {
+    width: 100vw;
+  }
+
+  .projects-container {
+    width: 90vw;
+    height: 25vh;
+    background-size: cover;
+  }
+
+  .card {
+    width: 90vw;
+  }
+
+  .card h1 {
+    font-size: 16px;
+    margin: 10px;
+  }
+
+  .techs-container {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .techs-container h3 {
+    font-size: 14px;
+  }
+
+  .tecnologias {
+    margin-right: 20px;
+  }
+
+  .logo {
+    width: 18px;
+    margin: 3px;
+  }
+
+  .techs-container a {
+    font-size: 12px;
+  }
+
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 22px;
+    height: 22px;
+  }
+
+  .carousel-indicators {
+    padding: 0;
+  }
+}
