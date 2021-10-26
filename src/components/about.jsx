@@ -9,7 +9,7 @@ export default function About() {
           <img src={avatarImages.ola} alt="avatar-ola" />
           <div>
             <h1>Perfil Pessoal</h1>
-            <p>Sou estudante de Desenvolvimento de Software Fullstack, na Trybe. Possuo 10 meses de experiência em desenvolvimento front-end e back-end, com conhecimentos em HTML, CSS, JavaScrip, React, Redux, NodeJs, MongoDB e MySQL. Estou em busca de novas oportunidades de emprego.</p>
+            <p>Sou ex estudante de Comunicação Social e gostava muito de escrever e produzir conteúdos que despertassem algum sentimento no telespectador, que de alguma forma gerasse impacto pra quem estivesse assistindo. Porém não foi um mercado que me agradou muito, optei por mudar de área e comecei a aprender desenvolvimento. Hoje sou formado no curso de Desenvolvimento de Software na @Trybe!</p>
           </div>
         </div>
       </div>
@@ -18,7 +18,7 @@ export default function About() {
           <img src={avatarImages.computador} alt="avatar-pc" />
           <div>
             <h1>Objetivo Profissional</h1>
-            <p>Aplicar minha formação como fullstack no desenvolvimento de soluções críticas. Aprimorar minhas noções de liderança e trabalho em equipe, projetando uma futura posição gerencial. Desenvolver minha carreira sob a supervisão e estímulo de uma empresa comprometida com a inovação.</p>
+            <p>Quero continuar melhorando e gerando impacto na vida das pessoas, dessa vez usando todas as ferramentas que a tecnologia fornece, desenvolvendo soluções e aplicações criativas.</p>
           </div>
         </div>
       </div>

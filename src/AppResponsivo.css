@@ -104,4 +104,12 @@
   .carousel-indicators {
     padding: 0;
   }
+
+  .certificates-main {
+    width: 100vw;
+  }
+
+  .certificate-container img {
+    width: 90vw;
+  }
 }

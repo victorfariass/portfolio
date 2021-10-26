@@ -6,6 +6,7 @@ import Projects from './components/projects';
 import './App.css';
 import './AppResponsivo.css';
 import Footer from './components/footer';
+import Certificates from './components/certificates';
 
 class App extends React.Component {
   render() {
@@ -18,6 +19,8 @@ class App extends React.Component {
         <HardSkills />
         <hr/>
         <Projects />
+        <hr/>
+        <Certificates />
         <Footer />
       </main>
     );

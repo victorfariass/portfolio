@@ -130,6 +130,7 @@ hr {
 .projects-main {
   width: 65vw;
   margin: auto;
+  margin-bottom: 50px;
 }
 
 .projects-main h4 {
@@ -219,6 +220,23 @@ hr {
 
 .carousel-indicators [data-bs-target] {
   background-color: white;
+}
+
+/* certificates */
+
+.certificates-main {
+  width: 65vw;
+  margin: auto;
+}
+
+.certificates-main h4 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.certificate-container {
+  display: flex;
+  justify-content: center;
 }
 
 /* footer */
